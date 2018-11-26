@@ -1,0 +1,97 @@
+@import "variable";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+/*
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+    
+body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+}*/
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: table;
+    
+    .salut{
+        margin: 0;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        font-size: 30px;
+
+        #monportfolio{
+            color: rgb(46, 231, 222);
+        }
+
+        #monnom{
+            font-size: 35px;
+            color: gold;
+        }
+
+        #fullstack{
+            color:  rgb(236, 24, 173);
+        }
+
+        #ensemble{
+            color: rgb(96, 255, 5);
+        }
+
+        #montravail{
+            font-size: 32px;
+        }
+    }
+
+    .lien1{
+        
+
+
+        :hover .fa-arrow-right{
+            transform: rotateZ(90deg);
+        }
+    }
+
+    #bouton-link{
+        padding: 0px 20px;
+        border: 2px solid #fff;
+        box-sizing: inherit;
+        display: inline-block;
+        font-size: 20pt;
+        background: rgba(0, 0, 0, 0);
+        color: white;
+        transition: all 0.4s ease;
+    }
+
+    .fa-arrow-right{
+        transition: all 0.4s ease;
+    }
+}
+
+.nav-link{
+    margin-right: 30px;
+}
+
+nav{
+    border-bottom: 3px solid rgb(46, 231, 222);
+}
