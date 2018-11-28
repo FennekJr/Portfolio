@@ -9534,7 +9534,7 @@ header .salut {
   font-size: 30px;
   position: absolute;
   top: 90px;
-  left: 605px;
+  left: 573px;
   height: 380px;
 }
 
@@ -9564,7 +9564,7 @@ header .salut #montravail {
 header .lien1 {
   position: relative;
   top: 500px;
-  left: 599px;
+  left: 573px;
 }
 
 header .lien1 :hover .fa-arrow-right {
@@ -9686,12 +9686,22 @@ nav {
   padding-right: 30px;
 }
 
-#about .aboutmyself .progress {
+#about .aboutmyself .skills .progress {
   margin-bottom: 30px;
 }
 
-#about .aboutmyself .ontheline {
+#about .aboutmyself .skills .progress .ontheline {
   font-size: 100%;
   color: black;
+}
+
+#about .aboutmyself .skills .filtre {
+  background: rgba(0, 0, 0, 0.205);
+}
+
+#about .aboutmyself .skills .filtre .filtre-about {
+  background: #df7116;
+  color: black;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=main.css.map */

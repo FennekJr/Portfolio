@@ -18,7 +18,7 @@ header{
         font-size: 30px;
         position: absolute;
         top: 90px;
-        left: 605px;
+        left: 573px;
         height: 380px;
 
         #monportfolio{
@@ -49,7 +49,7 @@ header{
         
         position: relative;
         top: 500px;
-        left: 599px;
+        left: 573px;
 
         :hover .fa-arrow-right{
             transform: rotateZ(90deg);
@@ -157,15 +157,26 @@ nav{
 
         .skills{
             padding-right: 30px;
-        }
+        
 
-        .progress{
-            margin-bottom: 30px;
-        }
+            .progress{
+                margin-bottom: 30px;
 
-        .ontheline{
-            font-size: 100%;
-            color: black;
+                .ontheline{
+                    font-size: 100%;
+                    color: black;
+                }
+            }
+
+            .filtre{
+                background: rgba(0, 0, 0, 0.205);
+
+                .filtre-about{
+                    background: $primary;
+                    color: $secondary;
+                    border: 1px solid $secondary;
+                }
+            }
         }
     }
 }
