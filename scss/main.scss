@@ -181,3 +181,207 @@ nav{
     }
 }
 
+.black-break{
+    width: 100%;
+    height: 130px;
+    background: black;
+}
+
+#services{
+    height: 110vh;
+    background: url("../img/bg14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+
+    .messervices{
+        height: 100%;
+        text-align: center;
+
+        #titreservices{
+            color: $secondary;
+            margin: 0;
+            border-bottom: 3px solid $secondary;
+        }
+
+        .tarifs{
+            height: 480px;
+
+            .flipcard-ws{
+                background-color: transparent;
+                width: 400px;
+                height: 250px;
+                border: 1px solid #f1f1f100;
+                perspective: 1000px;
+              }
+              
+
+            .flipcard-ws-inner{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
+            }
+              
+            
+            .flipcard-ws:hover .flipcard-ws-inner{
+                transform: rotateY(180deg);
+            }
+              
+              
+            .flipcard-ws-front, .flipcard-ws-back{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+            }
+              
+              
+            .flipcard-ws-front{
+                color: black;
+            }
+              
+              
+            .flipcard-ws-back{
+                background-color: $secondary;
+                color: $primary;
+                transform: rotateY(180deg);
+
+            .flipcard-p{
+                    margin: 0;
+            }
+            }
+
+            .flipcard-app{
+            background-color: transparent;
+            width: 400px;
+            height: 250px;
+            border: 1px solid #f1f1f100;
+            perspective: 1000px;
+            }
+              
+
+            .flipcard-app-inner{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            }
+              
+            
+            .flipcard-app:hover .flipcard-app-inner{
+            transform: rotateY(180deg);
+            }
+              
+              
+            .flipcard-app-front, .flipcard-app-back{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            }
+              
+              
+            .flipcard-app-front{
+            color: black;
+            }
+              
+              
+            .flipcard-app-back{
+            background-color: $secondary;
+            color: $primary;
+            transform: rotateY(180deg);
+            }
+
+            .flipcard-des{
+                background-color: transparent;
+                width: 400px;
+                height: 250px;
+                border: 1px solid #f1f1f100;
+                perspective: 1000px;
+                }
+                  
+    
+                .flipcard-des-inner{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.8s;
+                transform-style: preserve-3d;
+                }
+                  
+                
+                .flipcard-des:hover .flipcard-des-inner{
+                transform: rotateY(180deg);
+                }
+                  
+                  
+                .flipcard-des-front, .flipcard-des-back{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+                }
+                  
+                  
+                .flipcard-des-front{
+                color: black;
+                }
+                  
+                  
+                .flipcard-des-back{
+                background-color: $secondary;
+                color: $primary;
+                transform: rotateY(180deg);
+                }
+
+                .flipcard-main{
+                    background-color: transparent;
+                    width: 400px;
+                    height: 250px;
+                    border: 1px solid #f1f1f100;
+                    perspective: 1000px;
+                    }
+                      
+        
+                    .flipcard-main-inner{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    transition: transform 0.8s;
+                    transform-style: preserve-3d;
+                    }
+                      
+                    
+                    .flipcard-main:hover .flipcard-main-inner{
+                    transform: rotateY(180deg);
+                    }
+                      
+                      
+                    .flipcard-main-front, .flipcard-main-back{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    backface-visibility: hidden;
+                    }
+                      
+                      
+                    .flipcard-main-front{
+                    color: black;
+                    }
+                      
+                      
+                    .flipcard-main-back{
+                    background-color: $secondary;
+                    color: $primary;
+                    transform: rotateY(180deg);
+                    }
+        }
+    }
+}

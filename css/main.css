@@ -9704,4 +9704,221 @@ nav {
   color: black;
   border: 1px solid black;
 }
+
+.black-break {
+  width: 100%;
+  height: 130px;
+  background: black;
+}
+
+#services {
+  height: 110vh;
+  background: url("../img/bg14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#services .messervices {
+  height: 100%;
+  text-align: center;
+}
+
+#services .messervices #titreservices {
+  color: black;
+  margin: 0;
+  border-bottom: 3px solid black;
+}
+
+#services .messervices .tarifs {
+  height: 480px;
+}
+
+#services .messervices .tarifs .flipcard-ws {
+  background-color: transparent;
+  width: 400px;
+  height: 250px;
+  border: 1px solid #f1f1f100;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+#services .messervices .tarifs .flipcard-ws-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#services .messervices .tarifs .flipcard-ws:hover .flipcard-ws-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-ws-front, #services .messervices .tarifs .flipcard-ws-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#services .messervices .tarifs .flipcard-ws-front {
+  color: black;
+}
+
+#services .messervices .tarifs .flipcard-ws-back {
+  background-color: black;
+  color: #df7116;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-ws-back .flipcard-p {
+  margin: 0;
+}
+
+#services .messervices .tarifs .flipcard-app {
+  background-color: transparent;
+  width: 400px;
+  height: 250px;
+  border: 1px solid #f1f1f100;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+#services .messervices .tarifs .flipcard-app-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#services .messervices .tarifs .flipcard-app:hover .flipcard-app-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-app-front, #services .messervices .tarifs .flipcard-app-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#services .messervices .tarifs .flipcard-app-front {
+  color: black;
+}
+
+#services .messervices .tarifs .flipcard-app-back {
+  background-color: black;
+  color: #df7116;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-des {
+  background-color: transparent;
+  width: 400px;
+  height: 250px;
+  border: 1px solid #f1f1f100;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+#services .messervices .tarifs .flipcard-des-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#services .messervices .tarifs .flipcard-des:hover .flipcard-des-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-des-front, #services .messervices .tarifs .flipcard-des-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#services .messervices .tarifs .flipcard-des-front {
+  color: black;
+}
+
+#services .messervices .tarifs .flipcard-des-back {
+  background-color: black;
+  color: #df7116;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-main {
+  background-color: transparent;
+  width: 400px;
+  height: 250px;
+  border: 1px solid #f1f1f100;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+#services .messervices .tarifs .flipcard-main-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#services .messervices .tarifs .flipcard-main:hover .flipcard-main-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#services .messervices .tarifs .flipcard-main-front, #services .messervices .tarifs .flipcard-main-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#services .messervices .tarifs .flipcard-main-front {
+  color: black;
+}
+
+#services .messervices .tarifs .flipcard-main-back {
+  background-color: black;
+  color: #df7116;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
 /*# sourceMappingURL=main.css.map */
