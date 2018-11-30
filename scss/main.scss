@@ -90,7 +90,7 @@ nav{
 }
 
 #about{
-    padding-top: 100px;
+    padding-top: 80px;
     height: 863px;
     width: 100%;
     background: url("../img/bg11.png");
@@ -107,11 +107,7 @@ nav{
         #me{
             margin: 0;
             border-bottom: 3px solid $secondary;
-        }
-    
-
-        .carousel-item{
-            height: 30vh;
+            height: 53px;
         }
   
         .flip-card {
@@ -192,7 +188,7 @@ nav{
     background: url("../img/bg14.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 70px;
 
     .messervices{
         height: 100%;
@@ -399,7 +395,7 @@ nav{
         #titreportfolio{
             color: $secondary;
             margin: 0;
-            padding-top: 100px;
+            padding-top: 70px;
             border-bottom: 3px solid $secondary;
         }
 
@@ -452,7 +448,7 @@ nav{
         #titrecontact{
             color: $secondary;
             margin: 0;
-            padding-top: 80px;
+            padding-top: 60px;
             border-bottom: 3px solid $secondary;
         }
 
