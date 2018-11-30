@@ -9971,12 +9971,47 @@ nav {
 #contact {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg12_2.png");
+  background: url("../img/bg12.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#contact #titrecontact {
+#contact .contactezmoi {
+  height: 100%;
+  text-align: center;
+}
+
+#contact .contactezmoi #titrecontact {
+  color: black;
   margin: 0;
+  padding-top: 80px;
+  border-bottom: 3px solid black;
+}
+
+#contact .contactezmoi input[type=text], #contact .contactezmoi select, #contact .contactezmoi textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+#contact .contactezmoi input[type=submit] {
+  background-color: #df7116;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#contact .contactezmoi input[type=submit]:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid #df7116;
 }
 /*# sourceMappingURL=main.css.map */
