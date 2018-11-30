@@ -10014,4 +10014,31 @@ nav {
   color: black;
   border: 1px solid #df7116;
 }
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: black;
+}
+
+footer .footer-cont {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+
+footer .footer-cont .footer-icons {
+  border: 2px solid #df7116;
+  height: 50px;
+  width: 55px;
+  padding-top: 15px;
+}
+
+footer #fennek {
+  margin: 0;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */
