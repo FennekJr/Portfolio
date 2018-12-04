@@ -1,5 +1,8 @@
 @import "variable";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+html{
+    scroll-behavior: smooth;
+}
 
 header{
     width: 100%;
@@ -251,14 +254,14 @@ nav{
             }
 
             .flipcard-app{
-            background-color: transparent;
-            width: 400px;
-            height: 250px;
-            border: 1px solid #f1f1f100;
-            perspective: 1000px;
-            }
-              
-
+                background-color: transparent;
+                width: 400px;
+                height: 250px;
+                border: 1px solid #f1f1f100;
+                perspective: 1000px;
+                }
+                  
+    
             .flipcard-app-inner{
             position: relative;
             width: 100%;
@@ -267,26 +270,26 @@ nav{
             transition: transform 0.8s;
             transform-style: preserve-3d;
             }
-              
-            
+                  
+                
             .flipcard-app:hover .flipcard-app-inner{
             transform: rotateY(180deg);
             }
-              
-              
+                  
+                  
             .flipcard-app-front, .flipcard-app-back{
             position: absolute;
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
             }
-              
-              
+                  
+                  
             .flipcard-app-front{
             color: black;
             }
-              
-              
+                  
+                  
             .flipcard-app-back{
             background-color: $secondary;
             color: $primary;
@@ -507,5 +510,244 @@ footer{
         padding-top: 20px;
         color: white;
         font-size: 20px;
+    }
+}
+
+//Media Query
+@media only screen and (max-width: 1351px) {
+    header{
+        .mil{
+            .salut{
+                left: 573px;
+            }
+
+            .lien1{
+                left: 573px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    header{
+        .mil{
+            .salut{
+                left: 615px;
+            }
+
+            .lien1{
+                left: 615px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header{
+        .mil{
+            .salut{
+                left: 410px;
+            }
+
+            .lien1{
+                left: 410px;
+            }
+        }
+    }
+
+    body{
+        #services{
+            height: 125vh;
+
+            .tkt{
+                right: 70px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        .mil{
+            .salut{
+                left: 290px;
+                top: 30px;
+            }
+
+            .lien1{
+                left: 290px;
+            }
+        }
+    }
+
+    body{
+        #services{
+            .messervices{
+                .tarifs{
+                    .tkt2{
+                        margin-right: 25px;
+
+                        .flipcard-ws{
+                            width: 300px !important;
+                            height: 250px !important;
+
+                            .flipcard-ws-inner{
+                                width: 300px !important;
+                                height: 250px !important;
+
+                                .flipcard-ws-front{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                    
+                                    #img-ws{
+                                        width: 300px !important;
+                                        height: 250px !important;
+                                    }
+                                }
+                    
+                                .flipcard-ws-back{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                                }
+                            }
+                        }
+
+                        .flipcard-des{
+                            width: 300px !important;
+                            height: 250px !important;
+
+                            .flipcard-des-inner{
+                                width: 300px !important;
+                                height: 250px !important;
+
+                                .flipcard-des-front{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                    
+                                    #img-des{
+                                        width: 300px !important;
+                                        height: 250px !important;
+                                    }
+                                }
+                    
+                                .flipcard-des-back{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .tkt{
+                        .flipcard-app{
+                            width: 300px !important;
+                            height: 250px !important;
+
+                            .flipcard-app-inner{
+                                width: 300px !important;
+                                height: 250px !important;
+
+                                .flipcard-app-front{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                    
+                                    #img-app{
+                                        width: 300px !important;
+                                        height: 250px !important;
+                                    }
+                                }
+                    
+                                .flipcard-app-back{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                                }
+                            }
+                        }
+
+                        .flipcard-main{
+                            width: 300px !important;
+                            height: 250px !important;
+
+                            .flipcard-main-inner{
+                                width: 300px !important;
+                                height: 250px !important;
+
+                                .flipcard-main-front{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                    
+                                    #img-main{
+                                        width: 300px !important;
+                                        height: 250px !important;
+                                    }
+                                }
+                    
+                                .flipcard-main-back{
+                                    width: 300px !important;
+                                    height: 250px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #portfolio{
+        .monportfolio{
+            height: 550px;
+            .projets{
+                .projetsrow{
+                    .carre{
+                        height: 232px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #contact{
+        .contactezmoi{
+            #titrecontact{
+                padding-top: 30px;
+            }
+
+            #imput{
+                .tab-bord{
+                    #btn-envoi{
+                        border: 2px solid $secondary !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px){
+    header{
+        height: 410px;
+
+        .mil{
+            height: 0px;
+            width: 0px;
+
+            .salut{
+                font-size: 18px;
+                left: 116px;
+                top: 0px;
+            }
+
+            .lien1{
+                left: 165px;
+                top: 260px;
+            }
+        }
+
+        #carousel{
+            .carousel-inner{
+                height: 410px;
+            }
+        }
     }
 }
